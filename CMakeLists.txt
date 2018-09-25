@@ -39,7 +39,7 @@ else(GCC_VISIBILITY_HIDDEN)
   set(pkgparse_GCC_VISIBILITY_FLAGS "")
 endif(GCC_VISIBILITY_INTERNAL AND NOT APPLE)
 
-include_directories(${CMAKE_CURRENT_BINARY_DIR})
+include_directories(${CMAKE_CURRENT_BINARY_DIR} pkgparse .)
 
 set(pkgparse_CFLAGS ${pkgparse_GCC_VISIBILITY_FLAGS})
 
