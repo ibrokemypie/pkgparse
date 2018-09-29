@@ -27,7 +27,6 @@
 	#include "pkgbuild_parse.h"
 
 	extern YYSTYPE yylval;
-	extern size_t yyleng;
 
 	int line = 1;
 %}
